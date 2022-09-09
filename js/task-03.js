@@ -13,6 +13,6 @@ const images = [
   },
 ];
 
-const adLi = document.querySelectorAll('.gallery');
-//console.log(adLi);
-adLi.insertAdjacentHTML('afterbegin', '<li> https://images.pexels.comr=2&h=750&w=1260</li>')
+const adLi = document.querySelectorAll('ul');
+
+adLi.insertAdjacentHTML("afterbegin",'<li>https://images.pexels.comr=2&h=750&w=1260</li>');
