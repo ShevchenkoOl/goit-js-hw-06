@@ -7,5 +7,5 @@ refs.input.addEventListener ('input', changeName);
 
 function changeName (event){
 console.log (event.currentTarget.value);
-refs.nameLabel.textContent = event.currentTarget.value;
+refs.nameLabel.textContent = event.currentTarget.value.trim();
 }
